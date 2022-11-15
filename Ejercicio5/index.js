@@ -1,0 +1,21 @@
+let nombre="Wilson";
+let apellido="Jerez";
+let estudiante=nombre +" "+ apellido;
+let estudianteMayus=estudiante.toUpperCase();
+let estudianteMinus=estudiante.toLowerCase();
+let numeroLetras=estudiante.length;
+let primeraLetraNombre=nombre.charAt();
+let ultimaLetraApellido=apellido.charAt(4);
+let elimarEspacios=estudiante.replace(/ /g,'');
+let contenido=estudiante.includes(nombre);
+
+console.log(nombre);
+console.log(apellido);
+console.log(estudiante);
+console.log(estudianteMayus);
+console.log(estudianteMinus);
+console.log(numeroLetras);
+console.log(primeraLetraNombre);
+console.log(ultimaLetraApellido);
+console.log(elimarEspacios);
+console.log(contenido);
